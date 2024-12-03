@@ -1,0 +1,35 @@
+<div class="content">
+<h2>Game!</h2>
+  @if (selectedPlayer < 0) {
+    <div>
+      Borders  
+      @for(state of borders; track state) {
+        <button (click)="crossBorder(state)">{{ state }}</button>
+      }
+    </div>
+    <div>
+      Players 
+      @for(player of scoreboard; track player.id) {
+        <button (click)="choosePlayer(player.id)">{{ player.name }} - {{ player.score }}</button>
+      }
+    </div>
+  } @else {
+    <button (click)="cancelPlayer()">Cancel</button>
+    <div class="content">
+      <input type="checkbox" id="penaltyCheckbox" [(ngModel)]="sightingPenalty">
+      <label for="penaltyCheckbox">Penalty</label>
+      @for(country of countries; track country.code) {
+        <div>
+          {{ country.code }} -
+          @for(territory of country.territories; track territory.code; let idx = $index) {
+            <button (click)="sighting(territory.code)" [ngStyle]="{color: territoryStyle(territory)}">{{territory.code}}</button>
+            @if (idx % 10 == 9) {
+              <br>
+            }
+          }
+        </div>
+      }
+    </div>
+  }
+  <button (click)="endGame()">End Game</button>
+</div>

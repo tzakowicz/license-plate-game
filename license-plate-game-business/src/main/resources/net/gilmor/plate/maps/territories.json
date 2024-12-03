@@ -1,0 +1,1610 @@
+{
+	"countries": [{
+		"code": "US",
+		"name": "United States",
+		"territories": [{
+			"code": "AL",
+			"name": "Alabama",
+			"borders": {
+				"TN": {
+					"country": false,
+					"ocean": false
+				},
+				"GA": {
+					"country": false,
+					"ocean": false
+				},
+				"FL": {
+					"country": false,
+					"ocean": false
+				},
+				"MS": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "AK",
+			"name": "Alaska",
+			"borders": {
+				"BC": {
+					"country": true,
+					"ocean": false
+				},
+				"YT": {
+					"country": true,
+					"ocean": false
+				},
+				"HI": {
+					"country": false,
+					"ocean": true
+				}
+			}
+		},
+		{
+			"code": "AZ",
+			"name": "Arizona",
+			"borders": {
+				"CA": {
+					"country": false,
+					"ocean": false
+				},
+				"NV": {
+					"country": false,
+					"ocean": false
+				},
+				"UT": {
+					"country": false,
+					"ocean": false
+				},
+				"CO": {
+					"country": false,
+					"ocean": false
+				},
+				"NM": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "AR",
+			"name": "Arkansas",
+			"borders": {
+				"MO": {
+					"country": false,
+					"ocean": false
+				},
+				"TN": {
+					"country": false,
+					"ocean": false
+				},
+				"MS": {
+					"country": false,
+					"ocean": false
+				},
+				"LA": {
+					"country": false,
+					"ocean": false
+				},
+				"TX": {
+					"country": false,
+					"ocean": false
+				},
+				"OK": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "CA",
+			"name": "California",
+			"borders": {
+				"OR": {
+					"country": false,
+					"ocean": false
+				},
+				"NV": {
+					"country": false,
+					"ocean": false
+				},
+				"AZ": {
+					"country": false,
+					"ocean": false
+				},
+				"HI": {
+					"country": false,
+					"ocean": true
+				}
+			}
+		},
+		{
+			"code": "CO",
+			"name": "Colorado",
+			"borders": {
+				"WY": {
+					"country": false,
+					"ocean": false
+				},
+				"NE": {
+					"country": false,
+					"ocean": false
+				},
+				"KS": {
+					"country": false,
+					"ocean": false
+				},
+				"OK": {
+					"country": false,
+					"ocean": false
+				},
+				"NM": {
+					"country": false,
+					"ocean": false
+				},
+				"AZ": {
+					"country": false,
+					"ocean": false
+				},
+				"UT": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "CT",
+			"name": "Connecticut",
+			"borders": {
+				"RI": {
+					"country": false,
+					"ocean": false
+				},
+				"MA": {
+					"country": false,
+					"ocean": false
+				},
+				"NY": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "DE",
+			"name": "Delaware",
+			"borders": {
+				"PA": {
+					"country": false,
+					"ocean": false
+				},
+				"NJ": {
+					"country": false,
+					"ocean": false
+				},
+				"MD": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "FL",
+			"name": "Florida",
+			"borders": {
+				"AL": {
+					"country": false,
+					"ocean": false
+				},
+				"GA": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "GA",
+			"name": "Georgia",
+			"borders": {
+				"TN": {
+					"country": false,
+					"ocean": false
+				},
+				"NC": {
+					"country": false,
+					"ocean": false
+				},
+				"SC": {
+					"country": false,
+					"ocean": false
+				},
+				"FL": {
+					"country": false,
+					"ocean": false
+				},
+				"AL": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "HI",
+			"name": "Hawaii",
+			"borders": {
+				"CA": {
+					"country": false,
+					"ocean": true
+				},
+				"OR": {
+					"country": false,
+					"ocean": true
+				},
+				"WA": {
+					"country": false,
+					"ocean": true
+				},
+				"BC": {
+					"country": true,
+					"ocean": true
+				},
+				"AK": {
+					"country": false,
+					"ocean": true
+				}
+			}
+		},
+		{
+			"code": "ID",
+			"name": "Idaho",
+			"borders": {
+				"WA": {
+					"country": false,
+					"ocean": false
+				},
+				"OR": {
+					"country": false,
+					"ocean": false
+				},
+				"NV": {
+					"country": false,
+					"ocean": false
+				},
+				"UT": {
+					"country": false,
+					"ocean": false
+				},
+				"WY": {
+					"country": false,
+					"ocean": false
+				},
+				"MT": {
+					"country": false,
+					"ocean": false
+				},
+				"BC": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "IL",
+			"name": "Illinois",
+			"borders": {
+				"WI": {
+					"country": false,
+					"ocean": false
+				},
+				"IN": {
+					"country": false,
+					"ocean": false
+				},
+				"KY": {
+					"country": false,
+					"ocean": false
+				},
+				"MO": {
+					"country": false,
+					"ocean": false
+				},
+				"IA": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "IN",
+			"name": "Indiana",
+			"borders": {
+				"MI": {
+					"country": false,
+					"ocean": false
+				},
+				"OH": {
+					"country": false,
+					"ocean": false
+				},
+				"KY": {
+					"country": false,
+					"ocean": false
+				},
+				"IL": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "IA",
+			"name": "Iowa",
+			"borders": {
+				"MN": {
+					"country": false,
+					"ocean": false
+				},
+				"WI": {
+					"country": false,
+					"ocean": false
+				},
+				"IL": {
+					"country": false,
+					"ocean": false
+				},
+				"MO": {
+					"country": false,
+					"ocean": false
+				},
+				"NE": {
+					"country": false,
+					"ocean": false
+				},
+				"SD": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "KS",
+			"name": "Kansas",
+			"borders": {
+				"NE": {
+					"country": false,
+					"ocean": false
+				},
+				"MO": {
+					"country": false,
+					"ocean": false
+				},
+				"OK": {
+					"country": false,
+					"ocean": false
+				},
+				"CO": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "KY",
+			"name": "Kentucky",
+			"borders": {
+				"IL": {
+					"country": false,
+					"ocean": false
+				},
+				"IN": {
+					"country": false,
+					"ocean": false
+				},
+				"OH": {
+					"country": false,
+					"ocean": false
+				},
+				"WV": {
+					"country": false,
+					"ocean": false
+				},
+				"VA": {
+					"country": false,
+					"ocean": false
+				},
+				"TN": {
+					"country": false,
+					"ocean": false
+				},
+				"MO": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "LA",
+			"name": "Louisiana",
+			"borders": {
+				"AR": {
+					"country": false,
+					"ocean": false
+				},
+				"MS": {
+					"country": false,
+					"ocean": false
+				},
+				"TX": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "ME",
+			"name": "Maine",
+			"borders": {
+				"NH": {
+					"country": false,
+					"ocean": false
+				},
+				"QC": {
+					"country": true,
+					"ocean": false
+				},
+				"NB": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "MD",
+			"name": "Maryland",
+			"borders": {
+				"PA": {
+					"country": false,
+					"ocean": false
+				},
+				"DE": {
+					"country": false,
+					"ocean": false
+				},
+				"VA": {
+					"country": false,
+					"ocean": false
+				},
+				"WV": {
+					"country": false,
+					"ocean": false
+				},
+				"DC": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "MA",
+			"name": "Massachusetts",
+			"borders": {
+				"NH": {
+					"country": false,
+					"ocean": false
+				},
+				"VT": {
+					"country": false,
+					"ocean": false
+				},
+				"RI": {
+					"country": false,
+					"ocean": false
+				},
+				"CT": {
+					"country": false,
+					"ocean": false
+				},
+				"NY": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "MI",
+			"name": "Michigan",
+			"borders": {
+				"WI": {
+					"country": false,
+					"ocean": false
+				},
+				"IN": {
+					"country": false,
+					"ocean": false
+				},
+				"OH": {
+					"country": false,
+					"ocean": false
+				},
+				"ON": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "MN",
+			"name": "Minnesota",
+			"borders": {
+				"ND": {
+					"country": false,
+					"ocean": false
+				},
+				"SD": {
+					"country": false,
+					"ocean": false
+				},
+				"WI": {
+					"country": false,
+					"ocean": false
+				},
+				"IA": {
+					"country": false,
+					"ocean": false
+				},
+				"ON": {
+					"country": true,
+					"ocean": false
+				},
+				"MB": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "MS",
+			"name": "Mississippi",
+			"borders": {
+				"AR": {
+					"country": false,
+					"ocean": false
+				},
+				"TN": {
+					"country": false,
+					"ocean": false
+				},
+				"AL": {
+					"country": false,
+					"ocean": false
+				},
+				"LA": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "MO",
+			"name": "Missouri",
+			"borders": {
+				"IA": {
+					"country": false,
+					"ocean": false
+				},
+				"IL": {
+					"country": false,
+					"ocean": false
+				},
+				"KY": {
+					"country": false,
+					"ocean": false
+				},
+				"TN": {
+					"country": false,
+					"ocean": false
+				},
+				"AR": {
+					"country": false,
+					"ocean": false
+				},
+				"OK": {
+					"country": false,
+					"ocean": false
+				},
+				"KS": {
+					"country": false,
+					"ocean": false
+				},
+				"NE": {
+					"country": false,
+					"ocean": false
+				},
+				"SK": {
+					"country": true,
+					"ocean": false
+				},
+				"AB": {
+					"country": true,
+					"ocean": false
+				},
+				"BC": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "MT",
+			"name": "Montana",
+			"borders": {
+				"ID": {
+					"country": false,
+					"ocean": false
+				},
+				"WY": {
+					"country": false,
+					"ocean": false
+				},
+				"ND": {
+					"country": false,
+					"ocean": false
+				},
+				"SD": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NE",
+			"name": "Nebraska",
+			"borders": {
+				"SD": {
+					"country": false,
+					"ocean": false
+				},
+				"IA": {
+					"country": false,
+					"ocean": false
+				},
+				"MO": {
+					"country": false,
+					"ocean": false
+				},
+				"KS": {
+					"country": false,
+					"ocean": false
+				},
+				"CO": {
+					"country": false,
+					"ocean": false
+				},
+				"WY": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NV",
+			"name": "Nevada",
+			"borders": {
+				"OR": {
+					"country": false,
+					"ocean": false
+				},
+				"ID": {
+					"country": false,
+					"ocean": false
+				},
+				"UT": {
+					"country": false,
+					"ocean": false
+				},
+				"AZ": {
+					"country": false,
+					"ocean": false
+				},
+				"CA": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NH",
+			"name": "New Hampshire",
+			"borders": {
+				"VT": {
+					"country": false,
+					"ocean": false
+				},
+				"ME": {
+					"country": false,
+					"ocean": false
+				},
+				"MA": {
+					"country": false,
+					"ocean": false
+				},
+				"QC": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NJ",
+			"name": "New Jersey",
+			"borders": {
+				"NY": {
+					"country": false,
+					"ocean": false
+				},
+				"PA": {
+					"country": false,
+					"ocean": false
+				},
+				"DE": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NM",
+			"name": "New Mexico",
+			"borders": {
+				"AZ": {
+					"country": false,
+					"ocean": false
+				},
+				"UT": {
+					"country": false,
+					"ocean": false
+				},
+				"CO": {
+					"country": false,
+					"ocean": false
+				},
+				"OK": {
+					"country": false,
+					"ocean": false
+				},
+				"TX": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NY",
+			"name": "New York",
+			"borders": {
+				"VT": {
+					"country": false,
+					"ocean": false
+				},
+				"MA": {
+					"country": false,
+					"ocean": false
+				},
+				"CT": {
+					"country": false,
+					"ocean": false
+				},
+				"PA": {
+					"country": false,
+					"ocean": false
+				},
+				"NJ": {
+					"country": false,
+					"ocean": false
+				},
+				"QC": {
+					"country": true,
+					"ocean": false
+				},
+				"ON": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NC",
+			"name": "North Carolina",
+			"borders": {
+				"VA": {
+					"country": false,
+					"ocean": false
+				},
+				"SC": {
+					"country": false,
+					"ocean": false
+				},
+				"GA": {
+					"country": false,
+					"ocean": false
+				},
+				"TN": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "ND",
+			"name": "North Dakota",
+			"borders": {
+				"MT": {
+					"country": false,
+					"ocean": false
+				},
+				"MN": {
+					"country": false,
+					"ocean": false
+				},
+				"SD": {
+					"country": false,
+					"ocean": false
+				},
+				"MB": {
+					"country": true,
+					"ocean": false
+				},
+				"SK": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "OH",
+			"name": "Ohio",
+			"borders": {
+				"PA": {
+					"country": false,
+					"ocean": false
+				},
+				"WV": {
+					"country": false,
+					"ocean": false
+				},
+				"KY": {
+					"country": false,
+					"ocean": false
+				},
+				"IN": {
+					"country": false,
+					"ocean": false
+				},
+				"MI": {
+					"country": false,
+					"ocean": false
+				},
+				"ON": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "OK",
+			"name": "Oklahoma",
+			"borders": {
+				"KS": {
+					"country": false,
+					"ocean": false
+				},
+				"MO": {
+					"country": false,
+					"ocean": false
+				},
+				"AR": {
+					"country": false,
+					"ocean": false
+				},
+				"TX": {
+					"country": false,
+					"ocean": false
+				},
+				"NM": {
+					"country": false,
+					"ocean": false
+				},
+				"CO": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "OR",
+			"name": "Oregon",
+			"borders": {
+				"WA": {
+					"country": false,
+					"ocean": false
+				},
+				"ID": {
+					"country": false,
+					"ocean": false
+				},
+				"NV": {
+					"country": false,
+					"ocean": false
+				},
+				"CA": {
+					"country": false,
+					"ocean": false
+				},
+				"HI": {
+					"country": false,
+					"ocean": true
+				}
+			}
+		},
+		{
+			"code": "PA",
+			"name": "Pennsylvania",
+			"borders": {
+				"NY": {
+					"country": false,
+					"ocean": false
+				},
+				"NJ": {
+					"country": false,
+					"ocean": false
+				},
+				"DE": {
+					"country": false,
+					"ocean": false
+				},
+				"MD": {
+					"country": false,
+					"ocean": false
+				},
+				"WV": {
+					"country": false,
+					"ocean": false
+				},
+				"OH": {
+					"country": false,
+					"ocean": false
+				},
+				"ON": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "RI",
+			"name": "Rhode Island",
+			"borders": {
+				"MA": {
+					"country": false,
+					"ocean": false
+				},
+				"CT": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "SC",
+			"name": "South Carolina",
+			"borders": {
+				"NC": {
+					"country": false,
+					"ocean": false
+				},
+				"GA": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "SD",
+			"name": "South Dakota",
+			"borders": {
+				"MT": {
+					"country": false,
+					"ocean": false
+				},
+				"WY": {
+					"country": false,
+					"ocean": false
+				},
+				"ND": {
+					"country": false,
+					"ocean": false
+				},
+				"MN": {
+					"country": false,
+					"ocean": false
+				},
+				"IA": {
+					"country": false,
+					"ocean": false
+				},
+				"NE": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "TN",
+			"name": "Tennessee",
+			"borders": {
+				"KY": {
+					"country": false,
+					"ocean": false
+				},
+				"VA": {
+					"country": false,
+					"ocean": false
+				},
+				"NC": {
+					"country": false,
+					"ocean": false
+				},
+				"GA": {
+					"country": false,
+					"ocean": false
+				},
+				"AL": {
+					"country": false,
+					"ocean": false
+				},
+				"MS": {
+					"country": false,
+					"ocean": false
+				},
+				"AR": {
+					"country": false,
+					"ocean": false
+				},
+				"MO": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "TX",
+			"name": "Texas",
+			"borders": {
+				"NM": {
+					"country": false,
+					"ocean": false
+				},
+				"OK": {
+					"country": false,
+					"ocean": false
+				},
+				"AR": {
+					"country": false,
+					"ocean": false
+				},
+				"LA": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "UT",
+			"name": "Utah",
+			"borders": {
+				"ID": {
+					"country": false,
+					"ocean": false
+				},
+				"WY": {
+					"country": false,
+					"ocean": false
+				},
+				"CO": {
+					"country": false,
+					"ocean": false
+				},
+				"NM": {
+					"country": false,
+					"ocean": false
+				},
+				"AZ": {
+					"country": false,
+					"ocean": false
+				},
+				"NV": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "VT",
+			"name": "Vermont",
+			"borders": {
+				"NH": {
+					"country": false,
+					"ocean": false
+				},
+				"MA": {
+					"country": false,
+					"ocean": false
+				},
+				"NY": {
+					"country": false,
+					"ocean": false
+				},
+				"QC": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "VA",
+			"name": "Virginia",
+			"borders": {
+				"WV": {
+					"country": false,
+					"ocean": false
+				},
+				"MD": {
+					"country": false,
+					"ocean": false
+				},
+				"NC": {
+					"country": false,
+					"ocean": false
+				},
+				"TN": {
+					"country": false,
+					"ocean": false
+				},
+				"KY": {
+					"country": false,
+					"ocean": false
+				},
+				"DC": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "WA",
+			"name": "Washington",
+			"borders": {
+				"OR": {
+					"country": false,
+					"ocean": false
+				},
+				"ID": {
+					"country": false,
+					"ocean": false
+				},
+				"BC": {
+					"country": true,
+					"ocean": false
+				},
+				"HI": {
+					"country": false,
+					"ocean": true
+				}
+			}
+		},
+		{
+			"code": "WV",
+			"name": "West Virginia",
+			"borders": {
+				"OH": {
+					"country": false,
+					"ocean": false
+				},
+				"PA": {
+					"country": false,
+					"ocean": false
+				},
+				"MD": {
+					"country": false,
+					"ocean": false
+				},
+				"VA": {
+					"country": false,
+					"ocean": false
+				},
+				"KY": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "WI",
+			"name": "Wisconsin",
+			"borders": {
+				"MN": {
+					"country": false,
+					"ocean": false
+				},
+				"MI": {
+					"country": false,
+					"ocean": false
+				},
+				"IA": {
+					"country": false,
+					"ocean": false
+				},
+				"IL": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "WY",
+			"name": "Wyoming",
+			"borders": {
+				"MT": {
+					"country": false,
+					"ocean": false
+				},
+				"SD": {
+					"country": false,
+					"ocean": false
+				},
+				"NE": {
+					"country": false,
+					"ocean": false
+				},
+				"CO": {
+					"country": false,
+					"ocean": false
+				},
+				"UT": {
+					"country": false,
+					"ocean": false
+				},
+				"ID": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "DC",
+			"name": "District of Columbia",
+			"borders": {
+				"MD": {
+					"country": false,
+					"ocean": false
+				},
+				"VA": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		}]
+	},
+	{
+		"code": "CA",
+		"name": "Canada",
+		"territories": [{
+			"code": "AB",
+			"name": "Alberta",
+			"borders": {
+				"SK": {
+					"country": false,
+					"ocean": false
+				},
+				"NT": {
+					"country": false,
+					"ocean": false
+				},
+				"BC": {
+					"country": false,
+					"ocean": false
+				},
+				"MO": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "BC",
+			"name": "British Columbia",
+			"borders": {
+				"AB": {
+					"country": false,
+					"ocean": false
+				},
+				"AK": {
+					"country": true,
+					"ocean": false
+				},
+				"YT": {
+					"country": false,
+					"ocean": false
+				},
+				"NT": {
+					"country": false,
+					"ocean": false
+				},
+				"WA": {
+					"country": true,
+					"ocean": false
+				},
+				"ID": {
+					"country": true,
+					"ocean": false
+				},
+				"MO": {
+					"country": true,
+					"ocean": false
+				},
+				"HI": {
+					"country": true,
+					"ocean": true
+				}
+			}
+		},
+		{
+			"code": "MB",
+			"name": "Manitoba",
+			"borders": {
+				"ON": {
+					"country": false,
+					"ocean": false
+				},
+				"NT": {
+					"country": false,
+					"ocean": false
+				},
+				"NU": {
+					"country": false,
+					"ocean": false
+				},
+				"SK": {
+					"country": false,
+					"ocean": false
+				},
+				"ND": {
+					"country": true,
+					"ocean": false
+				},
+				"MN": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NB",
+			"name": "New Brunswick",
+			"borders": {
+				"PE": {
+					"country": false,
+					"ocean": false
+				},
+				"NS": {
+					"country": false,
+					"ocean": false
+				},
+				"QC": {
+					"country": false,
+					"ocean": false
+				},
+				"ME": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NL",
+			"name": "Newfoundland and Labrador",
+			"borders": {
+				"QC": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NT",
+			"name": "Northwest Territories",
+			"borders": {
+				"MT": {
+					"country": true,
+					"ocean": false
+				},
+				"SK": {
+					"country": false,
+					"ocean": false
+				},
+				"AB": {
+					"country": false,
+					"ocean": false
+				},
+				"BC": {
+					"country": false,
+					"ocean": false
+				},
+				"NU": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NS",
+			"name": "Nova Scotia",
+			"borders": {
+				"NB": {
+					"country": false,
+					"ocean": false
+				},
+				"PE": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "NU",
+			"name": "Nunavut",
+			"borders": {
+				"MB": {
+					"country": false,
+					"ocean": false
+				},
+				"NT": {
+					"country": false,
+					"ocean": false
+				},
+				"SK": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "ON",
+			"name": "Ontario",
+			"borders": {
+				"QC": {
+					"country": false,
+					"ocean": false
+				},
+				"NY": {
+					"country": true,
+					"ocean": false
+				},
+				"PA": {
+					"country": true,
+					"ocean": false
+				},
+				"OH": {
+					"country": true,
+					"ocean": false
+				},
+				"MI": {
+					"country": true,
+					"ocean": false
+				},
+				"MN": {
+					"country": true,
+					"ocean": false
+				},
+				"MB": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "PE",
+			"name": "Prince Edward Island",
+			"borders": {
+				"NB": {
+					"country": false,
+					"ocean": false
+				},
+				"NS": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "QC",
+			"name": "Quebec",
+			"borders": {
+				"NL": {
+					"country": false,
+					"ocean": false
+				},
+				"NB": {
+					"country": false,
+					"ocean": false
+				},
+				"ON": {
+					"country": false,
+					"ocean": false
+				},
+				"ME": {
+					"country": true,
+					"ocean": false
+				},
+				"NH": {
+					"country": true,
+					"ocean": false
+				},
+				"VT": {
+					"country": true,
+					"ocean": false
+				},
+				"NY": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "SK",
+			"name": "Saskatchewan",
+			"borders": {
+				"MB": {
+					"country": false,
+					"ocean": false
+				},
+				"NT": {
+					"country": false,
+					"ocean": false
+				},
+				"NU": {
+					"country": false,
+					"ocean": false
+				},
+				"AB": {
+					"country": false,
+					"ocean": false
+				},
+				"MO": {
+					"country": true,
+					"ocean": false
+				},
+				"ND": {
+					"country": true,
+					"ocean": false
+				}
+			}
+		},
+		{
+			"code": "YT",
+			"name": "Yukon",
+			"borders": {
+				"AK": {
+					"country": true,
+					"ocean": false
+				},
+				"BC": {
+					"country": false,
+					"ocean": false
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,45 @@
+<div class="content" [formGroup]="form">
+    <h1>Game Setup</h1>
+    <div>
+      <button (click)="previousSetupState()" [disabled]="setupState <= SetupState.PLAYERS">Previous</button>
+      &nbsp;
+      <button (click)="nextSetupState()" [disabled]="setupState == SetupState.POINTS">Next</button>
+    </div>
+    @if(setupState == SetupState.PLAYERS) {
+      <h3>Enter Players</h3>
+      <div>
+        <button name="clickButton" (click)="addPlayer()">Add Player</button>
+      </div>
+      <div formArrayName="players">
+        @for(playerControl of players.controls; track playerControl; let i = $index) {
+          <div>
+            <input type="text" placeholder="Player Name" formControlName="{{ i }}" />
+            <button (click)="removePlayer(i)" [disabled]="players.length <= 1">Remove</button>
+          </div>
+        }
+      </div>
+    } 
+    @if(setupState == SetupState.STATE) {
+      <h3>Choose Starting Territory</h3>
+      <div>
+        @for(country of countries; track country.code) {
+          <h4>{{ country.code }}</h4>
+          <div>
+            @for(territory of country.territories; track territory.code) {
+              <button (click)="setCurrentState(territory.code)" [ngStyle]="{color: territoryStyle(territory)}">{{territory.code}}</button>
+            }
+          </div>
+        }
+      </div>
+    }
+    @if(setupState == SetupState.POINTS) {
+      <h3>Point Allocations</h3>
+      <label for="stateBorderInput">State Border</label>
+      <input name="stateBorderInput" type="number" formControlName="territoryBorderScore"/>
+      <label for="countryBorderInput">Country Border</label>
+      <input name="countryBorderInput" type="number" formControlName="countryBorderScore"/>
+      <label for="oceanBorderInput">Ocean Border</label>
+      <input name="oceanBorderInput" type="number" formControlName="oceanBorderScore"/>
+    }
+    <button (click)="startGame()" [disabled]="!form.valid">Start Game</button>
+  </div>
